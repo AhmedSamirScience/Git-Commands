@@ -33,19 +33,21 @@
 ## Sharing & Updating Projects:
 | Command | Description |                                              
 | ------------ |:-----------:|
-| `` |  | 
-| `` |  | 
-| `` |  | 
-| `` |  | 
+| `git push origin [remote name] master [branch name]	` | Push a branch to your remote repository | 
+| `git push origin --delete [branch name]	` | Delete a remote branch | 
+| `git pull origin [branch name]	` | Pull changes from remote repository | 
+| `git remote add origin [remote name you defined. it is up to you] ssh://git@github.com/[username]/[repository-name].git [URL of the repo weather was https or ssh]	` | Add a remote repository to my project | 
 
 ***
 ## Inspection & Comparison:
 | Command | Description |                                              
 | ------------ |:-----------:|
-| `` |  | 
-| `` |  | 
-| `` |  | 
-| `` |  | 
+| `git log	` | View changes | 
+| `git log --summary	` | View changes (detailed) | 
+| `git log --oneline	` | View changes (briefly) | 
+| `git diff [source branch] [target branch]	` | Preview changes before merging | 
+| `Git log --all --graph` | View changes | 
+| `git log --all --oneline` | View changes | 
 
 
 
