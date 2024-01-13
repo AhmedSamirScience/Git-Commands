@@ -49,7 +49,7 @@
 | `Git log --all --graph` | View changes | 
 | `git log --all --oneline` | View changes | 
 
-<p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="450" ></p>
+<p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="650" ></p>
 
 
 ***
