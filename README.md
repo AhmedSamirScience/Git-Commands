@@ -50,8 +50,8 @@
 | `git log --all --oneline` | View changes | 
 
 ***
-## Git Flow:
-<p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="750" ></p>
+## Git branching model (Git Flow):
+<p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="790" ></p>
 
 ***
 ## ➠ Start Contributing ☺
