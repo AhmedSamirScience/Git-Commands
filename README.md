@@ -1,13 +1,17 @@
 
 
-| Sensitivity | Sensitivity |                                              
+| Command | Description |                                              
 | ------------ |:-----------:|
-| k-NN.        | 0.635       |
-| RF           | 0.185       | 
-| SVM          | 0.397       | 
-| CNN          | 0.532       | 
-| RNN          | 0.81        | 
-| Our Rnn Model| `0.92`      | 
+| `git init`	    | Initialize a local Git repository |
+| `git clone ssh://git@github.com/[username]/[repository-name].git` | Initialize a local Git repository|
+
+
+| Command | Description |                                              
+| ------------ |:-----------:|
+| `` |  | 
+| `` |  | 
+| `` |  | 
+| `` |  | 
 
 
 ***
