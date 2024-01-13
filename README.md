@@ -7,6 +7,8 @@
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository|
 
 
+***
+## Basic:
 | Command | Description |                                              
 | ------------ |:-----------:|
 | `git status` | Check status | 
@@ -14,7 +16,8 @@
 | `git add .` | Add all new files to the staging area | 
 | `git commit -m "[commit message]" ` | Commit changes | 
 
-
+***
+## Branching & Merging:
 | Command | Description |                                              
 | ------------ |:-----------:|
 | `git branch` | List branches (the asterisk * denotes the current branch) | 
@@ -26,6 +29,8 @@
 | `git merge [source branch] [target branch]	` | Merge a branch into a target branch | 
 
 
+***
+## Sharing & Updating Projects:
 | Command | Description |                                              
 | ------------ |:-----------:|
 | `` |  | 
@@ -33,12 +38,14 @@
 | `` |  | 
 | `` |  | 
 
-
 ***
-## 6 - Suggestions for improvement:
-
-
-
+## Inspection & Comparison:
+| Command | Description |                                              
+| ------------ |:-----------:|
+| `` |  | 
+| `` |  | 
+| `` |  | 
+| `` |  | 
 
 
 
