@@ -50,6 +50,13 @@
 | `git log --all --oneline` | View changes | 
 
 ***
+## Tags:
+| Command | Description |                                              
+| ------------ |:-----------:|
+| `git tag-a V2.0 -m "Your message Here"` | Tag your commits | 
+| `git show v2.0` | show all commits related to this tag | 
+
+***
 ## Git branching model (Git Flow):
 <p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="790" ></p>
 
