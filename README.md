@@ -30,7 +30,7 @@
 
 
 ***
-## Sharing & Updating Projects:
+## Sharing & Updating Remote Projects:
 | Command | Description |                                              
 | ------------ |:-----------:|
 | `git push origin [remote name] master [branch name]` | Push a branch to your remote repository | 
