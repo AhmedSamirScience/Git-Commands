@@ -37,6 +37,8 @@
 | `git push origin --delete [branch name]` | Delete a remote branch | 
 | `git pull origin [branch name]` | Pull changes from remote repository | 
 | `git remote add origin [remote name you defined. it is up to you] ssh://git@github.com/[username]/[repository-name].git [URL of the repo weather was https or ssh]` | Add a remote repository to my project | 
+| `git remote set-url <remote_name> <remote_url>` | Change git gemote URL or you want to rename remote  | 
+
 
 ***
 ## Inspection & Comparison:
