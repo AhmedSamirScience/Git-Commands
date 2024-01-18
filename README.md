@@ -23,10 +23,14 @@
 | `git branch` | List branches (the asterisk * denotes the current branch) | 
 | `git branch [branch name]` | Create a new branch | 
 | `git branch -d [branch name]` | Delete a branch | 
+| `git branch -m <old_name> <new_name>` | Rename the local branch to the new name | 
 | `git push origin --delete [branch name]` | Delete a remote branch | 
 | `git checkout [branch name]` | Switch to a branch | 
 | `git merge [branch name]` | Merge a branch into the active branch | 
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch | 
+
+
+
 
 
 ***
