@@ -63,6 +63,12 @@
 | `git show v2.0` | show all commits related to this tag | 
 
 ***
+## Undothings:
+| Command | Description |                                              
+| ------------ |:-----------:|
+| `git reset --hard HEAD~1` | undo one commit | 
+
+***
 ## Git branching model (Git Flow):
 <p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="790" ></p>
 
