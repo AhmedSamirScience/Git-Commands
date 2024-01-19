@@ -61,6 +61,7 @@
 | ------------ |:-----------:|
 | `git tag-a V2.0 -m "Your message Here"` | Tag your commits | 
 | `git show v2.0` | show all commits related to this tag | 
+| `git push origin v2.0` | push tag to the remote repo | 
 
 ***
 ## Undothings:
