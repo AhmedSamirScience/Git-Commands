@@ -70,6 +70,23 @@
 | `git reset --hard HEAD~1` | undo one commit | 
 
 ***
+## Configuration:
+| Command | Description |                                              
+| ------------ |:-----------:|
+| `git config user.name "Ahmed Samir Ahmed"` | Set User Name |
+| `git config user.name` | Get Saved User Name | 
+| `git config user.email "ahmed.samirelbakrey@gmail.com"` | Set User Email | 
+| `git config user.email` | Get User Email | 
+| `git config author.name "Ahmed Samir Ahmed"` | Set Author Name | 
+| `git config author.name` | Get Author Name | 
+| `git config author.email "ahmed.samirelbakrey@gmail.com"` | Set Author Email | 
+| `git config author.email` | Get Author Email | 
+| `git config commiter.name "Ahmed Samir Ahmed"` | Set Commiter Name | 
+| `git config commiter.name` | Get Commiter Name | 
+| `git config commiter.email "ahmed.samirelbakrey@gmail.com"` | Set Commiter Email | 
+| `git config commiter.email` | Get Commiter Email | 
+
+***
 ## Git branching model (Git Flow):
 <p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="790" ></p>
 
