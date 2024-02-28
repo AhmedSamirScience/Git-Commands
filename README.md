@@ -71,19 +71,40 @@
 
 ***
 ## Configuration:
-| Command | Description |                                              
+| Command (User Name) | Description |  
 | ------------ |:-----------:|
-| `git config user.name "Ahmed Samir Ahmed"` | Set User Name |
+| `git config user.name "Ahmed Samir Ahmed"` | Set User Name for specific project |
+| `git config --global user.name "Ahmed Samir Ahmed"` | Set User Name `Globally` |
 | `git config user.name` | Get Saved User Name | 
-| `git config user.email "ahmed.samirelbakrey@gmail.com"` | Set User Email | 
+
+| Command (User Email) | Description |  
+| ------------ |:-----------:|
+| `git config user.email "ahmed.samirelbakrey@gmail.com"` | Set User Email for specific project | 
+| `git config --global user.email "ahmed.samirelbakrey@gmail.com"` | Set User Email `Globally` | 
 | `git config user.email` | Get User Email | 
-| `git config author.name "Ahmed Samir Ahmed"` | Set Author Name | 
+
+| Command (Author Name) | Description |  
+| ------------ |:-----------:|
+| `git config author.name "Ahmed Samir Ahmed"` | Set Author Name for specific project | 
+| `git config --global author.name "Ahmed Samir Ahmed"` | Set Author Name `Globally` | 
 | `git config author.name` | Get Author Name | 
-| `git config author.email "ahmed.samirelbakrey@gmail.com"` | Set Author Email | 
+
+| Command (Author Email) | Description |  
+| ------------ |:-----------:|
+| `git config author.email "ahmed.samirelbakrey@gmail.com"` | Set Author Email for specific project | 
+| `git config --global author.email "ahmed.samirelbakrey@gmail.com"` | Set Author Email `Globally` | 
 | `git config author.email` | Get Author Email | 
-| `git config commiter.name "Ahmed Samir Ahmed"` | Set Commiter Name | 
+
+| Command (Commiter Name) | Description |  
+| ------------ |:-----------:|
+| `git config commiter.name "Ahmed Samir Ahmed"` | Set Commiter Name for specific project | 
+| `git config --global commiter.name "Ahmed Samir Ahmed"` | Set Commiter Name `Globally` | 
 | `git config commiter.name` | Get Commiter Name | 
-| `git config commiter.email "ahmed.samirelbakrey@gmail.com"` | Set Commiter Email | 
+
+| Command (Commiter Email) | Description |  
+| ------------ |:-----------:|
+| `git config commiter.email "ahmed.samirelbakrey@gmail.com"` | Set Commiter Email for specific project | 
+| `git config  --global commiter.email "ahmed.samirelbakrey@gmail.com"` | Set Commiter Email `Globally` | 
 | `git config commiter.email` | Get Commiter Email | 
 
 ***
