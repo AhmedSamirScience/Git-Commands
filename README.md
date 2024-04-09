@@ -1,121 +1,48 @@
 
+## ➠ References on Software Versioning numbers
 
-## Getting & Creating Projects:
-| Command | Description |                                              
-| ------------ |:-----------:|
-| `git init` | Initialize a local Git repository |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository|
+**(Mobile-Developer)** [LinkedIn Arabic Post](https://www.linkedin.com/feed/update/urn:li:activity:7113144003369287680/)
+
+**(YoutubeChannel - BigData)** [Git and GitHub - 6H duration time](https://youtu.be/Q6G-J54vgKc?t=11062)
+
+**(YoutubeChannel - Abdallah Ali Abdallah)** [software versions](https://www.youtube.com/watch?v=_P8CLRYD31g)
+
+**(YoutubeChannel - Ave Coders)** [Software Versioning Numbers](https://www.youtube.com/watch?v=RC2png-tFTk)
+
+**(YoutubeChannel - Bogdan Stashchuk)** [What is Semantic Versioning?](https://www.youtube.com/watch?v=MdzJuQdjKOE)
+
+**(Thales - Software Versioning Best Practices)** [Software Versioning Best Practices](https://cpl.thalesgroup.com/software-monetization/software-versioning-basics)
+
+***
+
+## ➠ LinkedLinPost
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/linkedIn_Post.png" height="400" width="450" ></p>
+
+***
+
+## ➠ Software Version Number Concept
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/software_versioning_numberconcept.png" height="390" width="450" ></p>
+
+***
+
+## ➠ Stage Concept
+<p  href="url" align="center"  >
+  <img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/example_on_staging.png"             height="300" width="400"  />
+ <img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/staging.png"              height="300" width="400" /> 
+</p>
+
+***
+
+## ➠ Code Example
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/example_code.png" height="150" width="450" ></p>
+<p href="url"  align="center" ><img src="https://github.com/AhmedSamirScience/Shark_Architecture/blob/release_branch/concept/real_example.png" height="600" width="500" ></p>
+<p href="url"  align="center" ><img src="https://github.com/AhmedSamirScience/Shark_Architecture/blob/release_branch/concept/real_example2.png" height="600" width="500" ></p>
+
 
 
 ***
-## Basic:
-| Command | Description |                                              
-| ------------ |:-----------:|
-| `git status` | Check status | 
-| `git add [file-name.txt]` | Add a file to the staging area | 
-| `git add .` | Add all new files to the staging area | 
-| `git commit -m "[commit message]"` | Commit changes | 
 
-***
-## Branching & Merging:
-| Command | Description |                                              
-| ------------ |:-----------:|
-| `git branch` | List branches (the asterisk * denotes the current branch) | 
-| `git branch [branch name]` | Create a new branch | 
-| `git branch -d [branch name]` | Delete a branch | 
-| `git branch -m <old_name> <new_name>` | Rename the local branch to the new name | 
-| `git push origin --delete [branch name]` | Delete a remote branch | 
-| `git checkout [branch name]` | Switch to a branch | 
-| `git merge [branch name]` | Merge a branch into the active branch | 
-| `git merge [source branch] [target branch]` | Merge a branch into a target branch | 
+## ➠ Git Tag Example
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/git_tag_example.png" height="450" width="790" ></p>
 
-
-
-
-
-***
-## Sharing & Updating Remote Projects:
-| Command | Description |                                              
-| ------------ |:-----------:|
-| `git push origin [remote name] master [branch name]` | Push a branch to your remote repository | 
-| `git push origin --delete [branch name]` | Delete a remote branch | 
-| `git pull origin [branch name]` | Pull changes from remote repository | 
-| `git remote add origin [remote name you defined. it is up to you] ssh://git@github.com/[username]/[repository-name].git [URL of the repo weather was https or ssh]` | Add a remote repository to my project | 
-| `git remote set-url <remote_name> <remote_url>` | Change git gemote URL or you want to rename remote  | 
-
-
-***
-## Inspection & Comparison:
-| Command | Description |                                              
-| ------------ |:-----------:|
-| `git log` | View changes | 
-| `git log --summary` | View changes (detailed) | 
-| `git log --oneline` | View changes (briefly) | 
-| `git diff [source branch] [target branch]` | Preview changes before merging | 
-| `Git log --all --graph` | View changes | 
-| `git log --all --oneline` | View changes | 
-
-***
-## Tags:
-| Command | Description |                                              
-| ------------ |:-----------:|
-| `git tag-a V2.0.0 -m "Your message Here"` | Tag your commits | 
-| `git show v2.0.0` | show all commits related to this tag | 
-| `git push origin v2.0.0` | push tag to the remote repo | 
-
-***
-## Undothings:
-| Command | Description |                                              
-| ------------ |:-----------:|
-| `git reset --hard HEAD~1` | undo one commit | 
-
-***
-## Configuration:
-| Command (User Name) | Description |  
-| ------------ |:-----------:|
-| `git config user.name "Ahmed Samir Ahmed"` | Set User Name for specific project |
-| `git config --global user.name "Ahmed Samir Ahmed"` | Set User Name `Globally` |
-| `git config user.name` | Get Saved User Name | 
-
-| Command (User Email) | Description |  
-| ------------ |:-----------:|
-| `git config user.email "ahmed.samirelbakrey@gmail.com"` | Set User Email for specific project | 
-| `git config --global user.email "ahmed.samirelbakrey@gmail.com"` | Set User Email `Globally` | 
-| `git config user.email` | Get User Email | 
-
-| Command (Author Name) | Description |  
-| ------------ |:-----------:|
-| `git config author.name "Ahmed Samir Ahmed"` | Set Author Name for specific project | 
-| `git config --global author.name "Ahmed Samir Ahmed"` | Set Author Name `Globally` | 
-| `git config author.name` | Get Author Name | 
-
-| Command (Author Email) | Description |  
-| ------------ |:-----------:|
-| `git config author.email "ahmed.samirelbakrey@gmail.com"` | Set Author Email for specific project | 
-| `git config --global author.email "ahmed.samirelbakrey@gmail.com"` | Set Author Email `Globally` | 
-| `git config author.email` | Get Author Email | 
-
-| Command (Commiter Name) | Description |  
-| ------------ |:-----------:|
-| `git config commiter.name "Ahmed Samir Ahmed"` | Set Commiter Name for specific project | 
-| `git config --global commiter.name "Ahmed Samir Ahmed"` | Set Commiter Name `Globally` | 
-| `git config commiter.name` | Get Commiter Name | 
-
-| Command (Commiter Email) | Description |  
-| ------------ |:-----------:|
-| `git config commiter.email "ahmed.samirelbakrey@gmail.com"` | Set Commiter Email for specific project | 
-| `git config  --global commiter.email "ahmed.samirelbakrey@gmail.com"` | Set Commiter Email `Globally` | 
-| `git config commiter.email` | Get Commiter Email | 
-
-***
-## Git branching model (Git Flow):
-<p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="790" ></p>
-
-***
-## ➠ Start Contributing ☺
-I will be more than happy if you decide to contribute and/or fork my repo and make something awesome out of it. I will love seeing some feedback or stars from you guys.
-
-***
-#### ➠ To get more information about our repository, just send us a message from [here](https://www.linkedin.com/in/ahmedsamir13/) and we will send you the documents related to this study for a better understanding!
- 
 ***
