@@ -118,8 +118,8 @@ git rm --cached file : removes the copy of the file from the index / staging-are
 <p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_1.png" height="610" width="690" ></p>
 <p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_2.png" height="610" width="690" ></p>
 <p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_3.png" height="610" width="690" ></p>
-<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_4.png" height="270" width="690" ></p>
-<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_5.png" height="510" width="690" ></p>
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_4.png" height="470" width="690" ></p>
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_5.png" height="230" width="690" ></p>
 
 
 ***
