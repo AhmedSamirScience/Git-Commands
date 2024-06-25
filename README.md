@@ -112,6 +112,17 @@
 <p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="790" ></p>
 
 ***
+## Remove Cached files:
+git rm --cached file : removes the copy of the file from the index / staging-area, without touching the working tree copy. The proposed next commit now lacks the file. If the current commit has the file, and you do in fact make a next commit at this point, the difference between the previous commit and the new commit is that the file is gone. Below are the steps you can follow: 
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_1.png" height="610" width="690" ></p>
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_2.png" height="610" width="690" ></p>
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_3.png" height="610" width="690" ></p>
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_4.png" height="270" width="690" ></p>
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_5.png" height="510" width="690" ></p>
+
+
+***
 ## ➠ Start Contributing ☺
 I will be more than happy if you decide to contribute and/or fork my repo and make something awesome out of it. I will love seeing some feedback or stars from you guys.
 
