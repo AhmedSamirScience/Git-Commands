@@ -121,6 +121,9 @@ git rm --cached file : removes the copy of the file from the index / staging-are
 <p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_4.png" height="470" width="690" ></p>
 <p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_5.png" height="230" width="690" ></p>
 
+Here are the idea codes in .gitignore
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_6.png" height="230" width="690" ></p>
+
 
 ***
 ## ➠ Start Contributing ☺
