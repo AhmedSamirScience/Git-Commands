@@ -47,3 +47,28 @@
 <p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/git_tag_example.png" height="450" width="790" ></p>
 
 ***
+## ➠ Git Tag Example
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_1.png" height="650" width="790" ></p>
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_2.png" height="650" width="790" ></p>
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_3.png" height="650" width="790" ></p>
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_4.png" height="650" width="790" ></p>
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_5.png" height="650" width="790" ></p>
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_6.png" height="650" width="790" ></p>
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_7.png" height="650" width="790" ></p>
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_8.png" height="650" width="790" ></p>
+
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Software_Versioning_Numbers/git_flow_step_9.png" height="650" width="790" ></p>
+
+
+
+
+***
+
+
