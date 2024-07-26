@@ -70,6 +70,14 @@
 | `git reset --hard HEAD~1` | undo one commit | 
 
 ***
+## change latest commit name:
+[you can find the link if you want more details](https://stackoverflow.com/questions/8981194/changing-git-commit-message-after-push-given-that-no-one-pulled-from-remote)
+| Command | Description |                                              
+| ------------ |:-----------:|
+| Step 1 -> `git commit --amend -m "New commit message"` | If it is the most recent commit, you can simply do this | 
+| Step 2 -> `git push --force` | This brings up the editor with the last commit message and lets you edit the message. (You can use -m if you want to wipe out the old message and use a new one.) | 
+
+***
 ## Configuration:
 | Command (User Name) | Description |  
 | ------------ |:-----------:|
