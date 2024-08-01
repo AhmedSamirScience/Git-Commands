@@ -206,6 +206,10 @@ However, if you use the --no-ff option, the history will look like this:
 So, using --no-ff helps in preserving the historical context of the changes, making the project history easier to understand and navigate.
 
 ```
+***
+## ➠ To rename (amend) a specific commit using its SHA, you can use an interactive rebase in Git. Here are the steps:
+<p href="url"  align="center" ><img src="https://github.com/AhmedSamirScience/Git-Commands/blob/Git_Commands/To%20rename%20amend%20a%20specific%20commit%20using%20its%20SHA%2C%20you%20can%20use%20an%20interactive%20rebase%20in%20Git.%20Here%20are%20the%20steps_1.png" height="750" width="600" ></p>
+<p href="url"  align="center" ><img src="https://github.com/AhmedSamirScience/Git-Commands/blob/Git_Commands/To%20rename%20amend%20a%20specific%20commit%20using%20its%20SHA%2C%20you%20can%20use%20an%20interactive%20rebase%20in%20Git.%20Here%20are%20the%20steps_2.png" height="150" width="400" ></p>
 
 
 ***
