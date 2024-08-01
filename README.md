@@ -132,6 +132,81 @@ git rm --cached file : removes the copy of the file from the index / staging-are
 Here are the idea codes in .gitignore
 <p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/rm_cached_6.png" height="230" width="690" ></p>
 
+***
+## Merging Branches with a Specific Commit Message
+
+To merge one branch into another with a specific commit message, follow these steps:
+
+1. **Switch to the branch you want to merge into**:
+    ```sh
+    git checkout target-branch
+    ```
+
+2. **Merge the source branch into the target branch with a specific commit message**:
+    ```sh
+    git merge source-branch --no-ff -m "Your specific commit message"
+    ```
+**Example**
+If you want to merge a branch named `feature-branch` into `main` with a specific commit message, use the following commands:
+
+```sh
+git checkout main
+git merge feature-branch --no-ff -m "Merged feature-branch into main with specific commit message"
+```
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Git-Commands/Git_Commands/merge_one_branch_into_%20another_with_a_specific_commit_message.png" height="100" width="790" ></p>
+
+# Explanation of `--no-ff` Option in Git Merge
+
+The `--no-ff` option in the `git merge` command stands for "no fast-forward."
+
+## What is Fast-Forward Merge?
+In a fast-forward merge, Git simply moves the pointer of the current branch forward to point to the latest commit in the branch being merged. This happens when there have been no new commits on the current branch since it diverged from the branch being merged. This type of merge does not create a new commit, resulting in a linear history.
+
+## What is a No Fast-Forward Merge?
+When you use the `--no-ff` option, Git creates a new merge commit even if a fast-forward merge is possible. This merge commit will have two parent commits: one from the current branch and one from the branch being merged. This ensures that the history of the merge is preserved and makes it clear that a feature branch has been integrated.
+
+## Why Use `--no-ff`?
+- **Preserve History**: It helps in maintaining a clearer project history by showing when a feature was merged into the main branch.
+- **Traceability**: It allows you to easily trace back all the commits that were part of a feature branch.
+- **Grouping Changes**: It logically groups the commits of a feature or bug fix together under a single merge commit.
+
+## Example
+
+```plaintext
+Consider a repository with the following commit history:
+
+*   C4 - Main branch
+|
+* C3 - Main branch
+|
+| * C2 - Feature branch
+|/
+* C1 - Common ancestor
+
+If you perform a fast-forward merge, the history might look like this:
+
+* C4 - Feature branch (fast-forward)
+|
+* C3 - Main branch
+|
+* C2 - Feature branch
+|
+* C1 - Common ancestor
+
+However, if you use the --no-ff option, the history will look like this:
+
+*   M - Merge commit
+|\
+| * C2 - Feature branch
+* | C4 - Main branch
+* | C3 - Main branch
+|/
+* C1 - Common ancestor
+
+So, using --no-ff helps in preserving the historical context of the changes, making the project history easier to understand and navigate.
+
+```
+
 
 ***
 ## ➠ Start Contributing ☺
