@@ -67,7 +67,9 @@
 ## Undothings:
 | Command | Description |                                              
 | ------------ |:-----------:|
-| `git reset --hard HEAD~1` | undo one commit | 
+| First step-> `git reset --hard HEAD~1`| undo one commit | 
+| Second Step-> `git push origin <branch_name> --force` | undo one commit | 
+
 
 ***
 ## change latest commit name:
