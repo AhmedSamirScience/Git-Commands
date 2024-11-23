@@ -21,6 +21,7 @@
 | Command | Description |                                              
 | ------------ |:-----------:|
 | `git branch` | List branches (the asterisk * denotes the current branch) | 
+| `git branch -r` | This command displays all the remote branches tracked by your repository | 
 | `git branch [branch name]` | Create a new branch | 
 | `git branch -d [branch name]` | Delete a branch | 
 | `git branch -m <old_name> <new_name>` | Rename the local branch to the new name | 
