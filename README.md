@@ -28,7 +28,7 @@
 | `git branch -m <old_name> <new_name>` | Rename the local branch to the new name | 
 | `git push origin --delete [branch name]` | Delete a remote branch | 
 | `git checkout [branch name]` | Switch to a branch from local | 
-| `git checkout -b branch-name` | Switch to a branch from remote | 
+| `git checkout -b [branch-name]` | Switch to a branch from remote | 
 | `git merge [branch name]` | Merge a branch into the active branch | 
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch | 
 
